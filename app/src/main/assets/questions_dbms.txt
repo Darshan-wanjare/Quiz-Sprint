@@ -1,0 +1,218 @@
+# DBMS questions.   One line = one question:
+#   question @@ CORRECT answer @@ wrong 1 @@ wrong 2 @@ wrong 3
+# The CORRECT answer must always be written first. The app shuffles the options itself.
+# After editing this file, increase dbversion in DBmanager.java by 1.
+What does SQL stand for? @@ Structured Query Language @@ Simple Query Logic @@ Sequential Question Language @@ Standard Query List
+Which SQL command is used to retrieve data from a table? @@ SELECT @@ INSERT @@ UPDATE @@ DELETE
+Which key uniquely identifies each row in a table? @@ Primary key @@ Foreign key @@ Index @@ View
+Which command removes a table completely from the database? @@ DROP @@ DELETE @@ REMOVE @@ CLEAR
+Which normal form removes partial dependency? @@ 2NF @@ 1NF @@ 3NF @@ BCNF
+Which clause is used to filter rows? @@ WHERE @@ ORDER BY @@ GROUP BY @@ FROM
+Which aggregate function counts the number of rows? @@ COUNT() @@ SUM() @@ AVG() @@ MAX()
+In ACID properties, what does 'A' stand for? @@ Atomicity @@ Accuracy @@ Availability @@ Authorization
+Which join returns only the rows that match in both tables? @@ INNER JOIN @@ LEFT JOIN @@ FULL JOIN @@ CROSS JOIN
+Which key refers to the primary key of another table? @@ Foreign key @@ Candidate key @@ Super key @@ Alternate key
+What does DBMS stand for? @@ Database Management System @@ Data Backup Management Software @@ Digital Base Memory System @@ Database Mapping Structure
+What is a database? @@ An organized collection of related data @@ A single spreadsheet cell @@ A programming language @@ A type of network cable
+Who proposed the relational model of data? @@ E. F. Codd @@ Charles Babbage @@ Dennis Ritchie @@ Peter Chen
+Who proposed the Entity-Relationship (ER) model? @@ Peter Chen @@ E. F. Codd @@ James Gosling @@ Larry Ellison
+What is a table in a relational database also called? @@ Relation @@ Schema @@ Domain @@ Index
+What is a row in a table also called? @@ Tuple @@ Attribute @@ Domain @@ Schema
+What is a column in a table also called? @@ Attribute @@ Tuple @@ Relation @@ Record set
+What is the degree of a relation? @@ The number of attributes (columns) @@ The number of tuples (rows) @@ The number of keys @@ The number of tables
+What is the cardinality of a relation? @@ The number of tuples (rows) @@ The number of attributes (columns) @@ The number of foreign keys @@ The number of indexes
+What is a domain in a relational database? @@ The set of allowed values for an attribute @@ A web address @@ A group of tables @@ A type of key
+What is a schema? @@ The logical structure or design of a database @@ The data stored at a moment in time @@ A backup file @@ A type of query
+What is a database instance? @@ The data stored in the database at a particular moment @@ The design of the database @@ A copy of the DBMS software @@ A set of SQL commands
+What is data independence? @@ Changing the schema at one level without changing the level above it @@ Storing data without any structure @@ Having no relation between tables @@ Deleting data automatically
+Which level of the three-schema architecture describes how data is physically stored? @@ Internal level @@ External level @@ Conceptual level @@ User level
+Which level of the three-schema architecture describes what a particular user sees? @@ External level @@ Internal level @@ Conceptual level @@ Physical level
+Which level of the three-schema architecture describes the whole database logically? @@ Conceptual level @@ External level @@ Internal level @@ Hardware level
+Who is responsible for the overall control of a database system? @@ Database Administrator (DBA) @@ Network engineer @@ End user @@ Compiler
+Which of these is a disadvantage of a file system compared to a DBMS? @@ Data redundancy and inconsistency @@ Built-in security @@ Data sharing @@ Backup and recovery
+Which of these is an advantage of a DBMS? @@ Reduced data redundancy @@ Higher data duplication @@ No data security @@ No data sharing
+Which of these is a relational database management system? @@ MySQL @@ MongoDB @@ Redis @@ Neo4j
+Which of these is a NoSQL document database? @@ MongoDB @@ MySQL @@ Oracle @@ PostgreSQL
+Which database is a lightweight embedded database used in Android? @@ SQLite @@ Oracle @@ SQL Server @@ DB2
+Which sub-language of SQL is used to define the structure of a database? @@ DDL @@ DML @@ DCL @@ TCL
+Which sub-language of SQL is used to insert and change data? @@ DML @@ DDL @@ DCL @@ TCL
+Which sub-language of SQL is used to give and take permissions? @@ DCL @@ DDL @@ DML @@ TCL
+Which sub-language of SQL controls transactions? @@ TCL @@ DDL @@ DCL @@ DQL
+To which category does the CREATE command belong? @@ DDL @@ DML @@ DCL @@ TCL
+To which category does the INSERT command belong? @@ DML @@ DDL @@ DCL @@ TCL
+To which category does the GRANT command belong? @@ DCL @@ DDL @@ DML @@ TCL
+To which category does the COMMIT command belong? @@ TCL @@ DDL @@ DML @@ DCL
+Which command takes away a permission from a user? @@ REVOKE @@ DENY ALL @@ REMOVE @@ CANCEL
+Which command changes the structure of an existing table? @@ ALTER @@ UPDATE @@ MODIFY DATA @@ CHANGE ROWS
+Which command is used to add a new row to a table? @@ INSERT @@ ADD ROW @@ CREATE ROW @@ APPEND
+Which command is used to change existing data in a table? @@ UPDATE @@ ALTER @@ MODIFY @@ CHANGE
+Which command is used to remove selected rows from a table? @@ DELETE @@ DROP @@ REMOVE TABLE @@ ERASE
+Which command removes all rows of a table but keeps its structure? @@ TRUNCATE @@ DROP @@ REMOVE @@ DESTROY
+What happens if UPDATE is run without a WHERE clause? @@ All rows are updated @@ No row is updated @@ Only the first row is updated @@ A syntax error occurs
+What happens if DELETE is run without a WHERE clause? @@ All rows are deleted @@ No row is deleted @@ Only the last row is deleted @@ The table is dropped
+Which clause is used to sort the result of a query? @@ ORDER BY @@ SORT BY @@ GROUP BY @@ ARRANGE
+What is the default sort order of ORDER BY? @@ Ascending @@ Descending @@ Random @@ By primary key only
+Which keyword sorts the result in descending order? @@ DESC @@ DOWN @@ REVERSE @@ HIGH
+Which clause groups rows that have the same values? @@ GROUP BY @@ ORDER BY @@ WHERE @@ HAVING
+Which clause filters groups after GROUP BY? @@ HAVING @@ WHERE @@ FROM @@ LIMIT
+What is the difference between WHERE and HAVING? @@ WHERE filters rows, HAVING filters groups @@ WHERE filters groups, HAVING filters rows @@ They are exactly the same @@ HAVING can only be used with INSERT
+Which keyword removes duplicate rows from the result of a SELECT? @@ DISTINCT @@ UNIQUE ROWS @@ REMOVE @@ SINGLE
+Which operator is used for pattern matching in SQL? @@ LIKE @@ FIND @@ SIMILAR @@ PATTERN
+Which wildcard in LIKE stands for any number of characters? @@ % @@ _ @@ * @@ ?
+Which wildcard in LIKE stands for exactly one character? @@ _ @@ % @@ * @@ #
+Which names does LIKE 'A%' match? @@ Names starting with A @@ Names ending with A @@ Names containing A anywhere @@ Names with exactly one letter A
+Which names does LIKE '%a' match? @@ Names ending with a @@ Names starting with a @@ Names containing a anywhere @@ Names with exactly two letters
+Which operator checks if a value lies in a range, including both ends? @@ BETWEEN @@ RANGE @@ WITHIN @@ INSIDE
+Which operator checks if a value matches any value in a list? @@ IN @@ ANY LIST @@ EXISTS LIST @@ INSIDE
+Which is the correct way to test for a NULL value? @@ column IS NULL @@ column = NULL @@ column == NULL @@ column EQUALS NULL
+What does NULL represent in a database? @@ A missing or unknown value @@ The number zero @@ An empty string @@ The word null
+Which aggregate function adds up the values of a column? @@ SUM() @@ TOTAL ALL() @@ ADD() @@ PLUS()
+Which aggregate function returns the average of a column? @@ AVG() @@ MEAN() @@ MID() @@ AVERAGE()
+Which aggregate function returns the largest value of a column? @@ MAX() @@ TOP() @@ HIGH() @@ GREATEST ALL()
+Which aggregate function returns the smallest value of a column? @@ MIN() @@ LOW() @@ SMALL() @@ BOTTOM()
+What does COUNT(*) count? @@ All rows, including those with NULLs @@ Only rows without NULLs @@ Only distinct rows @@ Only columns
+What does COUNT(column_name) do with NULL values? @@ It ignores them @@ It counts them @@ It treats them as zero @@ It gives an error
+Which keyword gives a temporary name to a column or table in a query? @@ AS @@ NAME @@ ALIAS TO @@ RENAME
+Which clause limits the number of rows returned in SQLite and MySQL? @@ LIMIT @@ TOP ROWS @@ MAX ROWS @@ FIRST
+Which SQL function converts text to upper case? @@ UPPER() @@ CAPITAL() @@ BIGCASE() @@ TOUP()
+Which SQL function returns the number of characters in a string? @@ LENGTH() @@ SIZE() @@ COUNTCHAR() @@ STRLENGTH()
+Which data type stores variable-length text? @@ VARCHAR @@ CHAR @@ INT @@ DATE
+Which data type always uses a fixed length for text? @@ CHAR @@ VARCHAR @@ TEXT @@ BLOB
+Which data type is used to store whole numbers? @@ INT @@ VARCHAR @@ DATE @@ TEXT
+Which constraint makes sure a column cannot have NULL values? @@ NOT NULL @@ UNIQUE @@ CHECK @@ DEFAULT
+Which constraint makes sure all values in a column are different? @@ UNIQUE @@ NOT NULL @@ DEFAULT @@ CHECK
+Which constraint gives a column a value when none is supplied? @@ DEFAULT @@ UNIQUE @@ CHECK @@ INDEX
+Which constraint checks that values satisfy a condition? @@ CHECK @@ DEFAULT @@ UNIQUE @@ NOT NULL
+Can a table have more than one primary key? @@ No, only one (it may have several columns) @@ Yes, any number @@ Yes, up to two @@ Only if they are NULL
+Can a primary key contain NULL values? @@ No @@ Yes @@ Only one NULL @@ Only in SQLite
+Can a table have more than one foreign key? @@ Yes @@ No @@ Only one @@ Only two
+What is a composite key? @@ A key made of two or more columns @@ A key that is encrypted @@ A key with NULL values @@ A key stored in another database
+What is a candidate key? @@ A minimal set of attributes that can uniquely identify a row @@ Any column of a table @@ A key that refers to another table @@ A key that is always NULL
+What is a super key? @@ A set of attributes that uniquely identifies a row @@ The strongest password @@ A key that has only one column @@ A key used only in views
+What is an alternate key? @@ A candidate key that was not chosen as the primary key @@ A copy of the primary key @@ Another name for foreign key @@ A key stored in an index
+What is a surrogate key? @@ An artificial key with no business meaning, such as an auto-number @@ A key made of names @@ A key copied from another table @@ A temporary key
+What is referential integrity? @@ Foreign key values must match an existing primary key value or be NULL @@ Every column must be unique @@ Every table must have a view @@ Data must be encrypted
+What is entity integrity? @@ The primary key cannot be NULL @@ The foreign key cannot be NULL @@ Every table must have an index @@ Every column must be a string
+What does ON DELETE CASCADE do? @@ Deletes the child rows when the parent row is deleted @@ Stops the parent from being deleted @@ Sets the parent to NULL @@ Copies the parent row
+What is a view in SQL? @@ A virtual table based on the result of a query @@ A physical copy of a table @@ A type of key @@ A backup file
+Which command creates a view? @@ CREATE VIEW @@ MAKE VIEW @@ NEW VIEW @@ SHOW VIEW AS
+What is an index used for? @@ To speed up searching of data @@ To remove duplicate rows @@ To encrypt data @@ To create backups
+Which data structure is commonly used for database indexes? @@ B+ tree @@ Stack @@ Queue @@ Linked list only
+How many clustered indexes can a table have? @@ One @@ Two @@ As many as columns @@ None
+What does a clustered index decide? @@ The physical order of rows in the table @@ The foreign keys of the table @@ The data types of columns @@ The number of rows
+What is a trigger? @@ Code that runs automatically when an event like INSERT or UPDATE happens @@ A command that starts the database server @@ A type of join @@ A backup tool
+What is a stored procedure? @@ A saved set of SQL statements that can be run by name @@ A deleted table @@ A kind of index @@ A type of key
+What is a cursor in SQL? @@ A pointer used to go through the rows of a result one by one @@ A mouse pointer @@ A type of constraint @@ A backup record
+What is a subquery? @@ A query written inside another query @@ A query that deletes tables @@ A query without SELECT @@ A very short query
+Which keyword checks whether a subquery returns any rows? @@ EXISTS @@ HAS @@ PRESENT @@ FOUND
+Which operator combines the results of two SELECT queries and removes duplicates? @@ UNION @@ UNION ALL @@ JOIN ALL @@ MERGE
+Which operator combines the results of two SELECT queries and keeps duplicates? @@ UNION ALL @@ UNION @@ INTERSECT @@ EXCEPT
+Which join returns all rows from the left table and matching rows from the right table? @@ LEFT JOIN @@ INNER JOIN @@ RIGHT JOIN @@ CROSS JOIN
+Which join returns all rows from the right table and matching rows from the left table? @@ RIGHT JOIN @@ LEFT JOIN @@ INNER JOIN @@ SELF JOIN
+Which join returns all rows from both tables whether they match or not? @@ FULL OUTER JOIN @@ INNER JOIN @@ CROSS JOIN @@ SELF JOIN
+Which join returns the Cartesian product of two tables? @@ CROSS JOIN @@ INNER JOIN @@ LEFT JOIN @@ SELF JOIN
+Table A has 4 rows and table B has 5 rows. How many rows does A CROSS JOIN B give? @@ 20 @@ 9 @@ 5 @@ 1
+What is a self join? @@ Joining a table with itself @@ Joining a table with a view only @@ Joining two databases @@ A join with no condition
+What is the output of a Cartesian product of tables with m and n rows? @@ m x n rows @@ m + n rows @@ m - n rows @@ The smaller of m and n
+What is a functional dependency A → B? @@ The value of A decides the value of B @@ B decides A only @@ A and B are the same table @@ A and B are unrelated
+What is a partial dependency? @@ A non-key attribute depends on only a part of a composite key @@ A non-key attribute depends on another non-key attribute @@ A key depends on NULL @@ A table depends on a view
+What is a transitive dependency? @@ A non-key attribute depends on another non-key attribute @@ A non-key attribute depends on part of the key @@ A key depends on itself @@ Two tables depend on each other
+Which normal form requires every attribute to hold atomic (single) values? @@ 1NF @@ 2NF @@ 3NF @@ BCNF
+Which normal form removes transitive dependency? @@ 3NF @@ 1NF @@ 2NF @@ 4NF
+Which normal form requires every determinant to be a candidate key? @@ BCNF @@ 1NF @@ 2NF @@ 3NF
+Which normal form deals with multi-valued dependencies? @@ 4NF @@ 1NF @@ 2NF @@ 3NF
+What is the purpose of normalization? @@ To reduce redundancy and anomalies @@ To increase redundancy @@ To make queries slower on purpose @@ To remove primary keys
+What is denormalization? @@ Adding some redundancy on purpose to improve read speed @@ Removing all keys @@ Deleting tables @@ Encrypting data
+Which anomaly occurs when we cannot add data because some other data is missing? @@ Insertion anomaly @@ Deletion anomaly @@ Update anomaly @@ Selection anomaly
+Which anomaly occurs when deleting one fact also removes another useful fact? @@ Deletion anomaly @@ Insertion anomaly @@ Update anomaly @@ Join anomaly
+Which anomaly occurs when a repeated value is changed in only some of its copies? @@ Update anomaly @@ Insertion anomaly @@ Deletion anomaly @@ Index anomaly
+What is a lossless decomposition? @@ Splitting a table so that the original can be rebuilt by joining the parts @@ Deleting part of a table @@ Compressing a table @@ Copying a table
+Which of Armstrong's axioms says that if Y is a subset of X then X → Y? @@ Reflexivity @@ Augmentation @@ Transitivity @@ Union
+Which of Armstrong's axioms says that if X → Y and Y → Z then X → Z? @@ Transitivity @@ Reflexivity @@ Augmentation @@ Decomposition
+What is the closure of an attribute set? @@ All attributes that can be determined from it @@ The last attribute of a table @@ The set of all keys @@ The set of all tables
+In an ER diagram, which shape represents an entity? @@ Rectangle @@ Oval @@ Diamond @@ Triangle
+In an ER diagram, which shape represents a relationship? @@ Diamond @@ Rectangle @@ Oval @@ Circle
+In an ER diagram, which shape represents an attribute? @@ Oval (ellipse) @@ Rectangle @@ Diamond @@ Hexagon
+How is a key attribute shown in an ER diagram? @@ Underlined @@ In bold red @@ In a double rectangle @@ With a dotted line
+How is a multivalued attribute shown in an ER diagram? @@ Double oval @@ Dashed oval @@ Underlined oval @@ Double rectangle
+How is a derived attribute shown in an ER diagram? @@ Dashed oval @@ Double oval @@ Underlined oval @@ Diamond
+How is a weak entity shown in an ER diagram? @@ Double rectangle @@ Dashed rectangle @@ Double diamond @@ Plain oval
+What is a weak entity? @@ An entity that cannot be identified without its owner entity @@ An entity with no attributes @@ An entity with too many attributes @@ An entity without relationships
+What is a derived attribute? @@ An attribute whose value can be calculated from other attributes @@ An attribute that is always NULL @@ A key attribute @@ An attribute copied from another table
+Which of these is a good example of a derived attribute? @@ Age calculated from date of birth @@ Student name @@ Roll number @@ Email address
+What is a multivalued attribute? @@ An attribute that can have more than one value for one entity @@ An attribute with a long name @@ An attribute that is a key @@ An attribute without a type
+Which of these is a good example of a multivalued attribute? @@ Phone numbers of a person @@ Date of birth @@ Roll number @@ Gender
+Which relationship type is "one teacher teaches many students"? @@ One-to-many @@ One-to-one @@ Many-to-many @@ Many-to-zero
+Which relationship type is "students enrol in many courses and each course has many students"? @@ Many-to-many @@ One-to-one @@ One-to-many @@ Zero-to-one
+How is a many-to-many relationship converted into tables? @@ By creating a separate table holding both foreign keys @@ By deleting one entity @@ By merging both tables @@ It cannot be converted
+What is generalization in the ER model? @@ Combining similar entities into a higher-level entity @@ Splitting one entity into many tables @@ Deleting attributes @@ Creating indexes
+What is specialization in the ER model? @@ Dividing an entity into more specific sub-entities @@ Joining two tables @@ Combining entities into one @@ Removing a relationship
+What does ACID stand for? @@ Atomicity, Consistency, Isolation, Durability @@ Accuracy, Control, Integrity, Data @@ Atomicity, Concurrency, Integrity, Durability @@ Access, Consistency, Isolation, Data
+What does Atomicity mean in a transaction? @@ All operations are done or none are done @@ The transaction runs very fast @@ Data is encrypted @@ Data is never deleted
+What does Consistency mean in a transaction? @@ The database moves from one valid state to another valid state @@ All users see the same screen @@ Data is copied everywhere @@ Transactions run one by one only
+What does Isolation mean in a transaction? @@ Concurrent transactions do not interfere with each other @@ A transaction is stored alone on disk @@ A transaction cannot be rolled back @@ Only one user can connect
+What does Durability mean in a transaction? @@ Committed changes stay even after a system failure @@ A transaction takes a long time @@ A transaction can run forever @@ Data is deleted after a time
+What is a transaction? @@ A logical unit of work made of one or more operations @@ A single SQL table @@ A type of backup @@ A kind of user
+Which command makes the changes of a transaction permanent? @@ COMMIT @@ SAVE ALL @@ FINISH @@ APPLY
+Which command undoes the changes of the current transaction? @@ ROLLBACK @@ UNDO ALL @@ REVERT @@ CANCEL TABLE
+Which command sets a point inside a transaction to which we can roll back later? @@ SAVEPOINT @@ CHECKPOINT ROW @@ BOOKMARK @@ MARK
+Which of these is a state of a transaction? @@ Committed @@ Compiled @@ Linked @@ Deleted
+What is a deadlock? @@ Two or more transactions waiting for each other forever @@ A transaction that finishes too fast @@ A table with no rows @@ A crashed disk
+What is a dirty read? @@ Reading data written by a transaction that is not yet committed @@ Reading a deleted table @@ Reading corrupt disk blocks @@ Reading a NULL value
+Which isolation level allows dirty reads? @@ Read Uncommitted @@ Read Committed @@ Repeatable Read @@ Serializable
+Which isolation level is the strictest? @@ Serializable @@ Read Uncommitted @@ Read Committed @@ Repeatable Read
+What is a lost update problem? @@ Two transactions overwrite each other's update @@ A table is dropped by mistake @@ A disk is lost @@ An index is lost
+What is the purpose of concurrency control? @@ To let many transactions run at the same time without errors @@ To make one user wait forever @@ To remove locks @@ To delete old data
+What is a shared (read) lock? @@ A lock that allows many transactions to read an item @@ A lock that stops all reading @@ A lock for deleting tables @@ A lock for one user only
+What is an exclusive (write) lock? @@ A lock that lets only one transaction access an item for writing @@ A lock that lets everyone write @@ A lock that lets only reading @@ A lock used only for indexes
+In two-phase locking, what are the two phases? @@ Growing phase and shrinking phase @@ Reading phase and writing phase @@ Start phase and stop phase @@ Commit phase and delete phase
+What is a schedule that gives the same result as running transactions one after another called? @@ Serializable schedule @@ Parallel schedule @@ Random schedule @@ Locked schedule
+What is a log in database recovery? @@ A record of all changes made to the database @@ A list of users @@ A list of tables @@ An error message
+What is a checkpoint in recovery? @@ A point where all changes so far are saved to disk @@ A point where the database is deleted @@ A user login @@ A kind of index
+What does write-ahead logging mean? @@ The log is written to disk before the data change is @@ Data is written before the log @@ Only the log is saved @@ Nothing is saved until the end of the day
+Which operation in relational algebra selects rows that satisfy a condition? @@ Selection (sigma) @@ Projection (pi) @@ Union @@ Rename (rho)
+Which operation in relational algebra selects specific columns? @@ Projection (pi) @@ Selection (sigma) @@ Join @@ Difference
+Which relational algebra operation renames a relation or attribute? @@ Rename (rho) @@ Selection (sigma) @@ Projection (pi) @@ Union
+Which symbol is used for projection in relational algebra? @@ π @@ σ @@ ρ @@ ∪
+Which symbol is used for selection in relational algebra? @@ σ @@ π @@ ρ @@ ×
+Which relational algebra operation gives rows present in the first relation but not in the second? @@ Set difference @@ Union @@ Intersection @@ Cartesian product
+For a UNION of two relations to be valid, what must be true? @@ They must have the same number of attributes with compatible types @@ They must have the same name @@ They must have the same number of rows @@ They must be in different databases
+What is a data dictionary? @@ A store of data about the database, such as table and column details @@ A list of English words @@ A user manual @@ A type of backup
+What is metadata? @@ Data about data @@ Deleted data @@ Backup data @@ Encrypted data
+What is a data warehouse? @@ A large store of historical data used for analysis @@ A small database for one user @@ A backup tape @@ A temporary table
+What does OLTP stand for? @@ Online Transaction Processing @@ Offline Table Processing @@ Online Table Programming @@ Open Logical Transaction Protocol
+What does OLAP stand for? @@ Online Analytical Processing @@ Offline Analytical Programming @@ Online Application Protocol @@ Open Logic Access Process
+Which of these is a key-value NoSQL database? @@ Redis @@ MySQL @@ Oracle @@ SQLite
+What does the CAP theorem say about distributed databases? @@ You cannot have consistency, availability and partition tolerance all at the same time @@ All three can always be had together @@ Only consistency matters @@ It applies only to SQLite
+What is sharding? @@ Splitting a large database across several servers @@ Joining two tables @@ Deleting old rows @@ Encrypting a table
+What is database replication? @@ Keeping copies of data on more than one server @@ Deleting duplicate rows @@ Joining two tables @@ Renaming a table
+What does SQL injection attack do? @@ Inserts harmful SQL through user input @@ Deletes the network @@ Slows down the disk @@ Changes the screen colour
+How can SQL injection be prevented? @@ By using parameterized queries @@ By using longer table names @@ By using bigger disks @@ By turning off the internet only
+Which statement creates a new table in SQL? @@ CREATE TABLE @@ MAKE TABLE @@ NEW TABLE @@ ADD TABLE
+Which statement adds a new column to an existing table? @@ ALTER TABLE ... ADD @@ UPDATE TABLE ... ADD @@ INSERT COLUMN @@ CREATE COLUMN
+Which keyword is used in SQLite to make an integer primary key increase by itself? @@ AUTOINCREMENT @@ AUTO_NUMBER @@ SERIAL ROW @@ IDENTITY ROW
+Which SQLite statement shows the rows of a table named student? @@ SELECT * FROM student; @@ SHOW student; @@ GET student; @@ OPEN student;
+Which symbol in SELECT * stands for all columns? @@ * @@ % @@ # @@ &
+What does SELECT name FROM student WHERE marks > 80; return? @@ Names of students with marks above 80 @@ All marks of all students @@ Students with marks equal to 80 @@ Count of students
+Which query counts the students in a table named student? @@ SELECT COUNT(*) FROM student; @@ SELECT NUMBER FROM student; @@ COUNT student; @@ SELECT SIZE(student);
+Which query gives the highest marks from table student? @@ SELECT MAX(marks) FROM student; @@ SELECT TOP(marks) FROM student; @@ SELECT HIGH marks FROM student; @@ MAX student.marks;
+Which query lists students sorted by marks from highest to lowest? @@ SELECT * FROM student ORDER BY marks DESC; @@ SELECT * FROM student SORT marks HIGH; @@ SELECT * FROM student ORDER marks; @@ SELECT * FROM student GROUP BY marks DESC ONLY;
+Which query inserts a row into table student(id, name)? @@ INSERT INTO student (id, name) VALUES (1, 'Ravi'); @@ ADD INTO student VALUES (1, 'Ravi'); @@ INSERT student SET 1, 'Ravi'; @@ INSERT VALUES (1, 'Ravi') TO student;
+Which query changes the marks of student 5 to 90? @@ UPDATE student SET marks = 90 WHERE id = 5; @@ CHANGE student marks 90 WHERE id = 5; @@ MODIFY student SET 90 WHERE id = 5; @@ UPDATE marks = 90 IN student WHERE id = 5;
+Which query deletes the student with id 5? @@ DELETE FROM student WHERE id = 5; @@ REMOVE student WHERE id = 5; @@ DROP student WHERE id = 5; @@ DELETE student id = 5;
+Which of these is a correct use of GROUP BY? @@ SELECT dept, COUNT(*) FROM emp GROUP BY dept; @@ SELECT dept, COUNT(*) FROM emp GROUP dept; @@ GROUP BY dept SELECT COUNT(*) FROM emp; @@ SELECT COUNT(*) GROUP BY FROM emp;
+Which of these is a correct use of HAVING? @@ SELECT dept, COUNT(*) FROM emp GROUP BY dept HAVING COUNT(*) > 5; @@ SELECT dept FROM emp HAVING dept; @@ SELECT * FROM emp HAVING WHERE age > 5; @@ SELECT HAVING COUNT(*) FROM emp;
+What is the correct order of clauses in a SELECT statement? @@ SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY @@ FROM, SELECT, WHERE, ORDER BY, GROUP BY @@ SELECT, WHERE, FROM, HAVING, GROUP BY @@ WHERE, SELECT, FROM, GROUP BY, ORDER BY
+What does a NATURAL JOIN do? @@ Joins tables on columns that have the same name @@ Joins every row with every row @@ Joins a table with itself only @@ Joins tables without any columns
+What does the INTERSECT operator return? @@ Rows that appear in both queries @@ Rows that appear in either query @@ Rows only in the first query @@ All rows twice
+What does the EXCEPT (or MINUS) operator return? @@ Rows in the first query that are not in the second @@ Rows common to both @@ All rows of both @@ Only the duplicate rows
+What is a candidate key that is NULL-free and chosen to identify rows called? @@ Primary key @@ Foreign key @@ Alternate key @@ Super key
+Which type of database stores data as tables of rows and columns? @@ Relational database @@ Hierarchical database @@ Network database @@ Object database
+Which database model arranges data like a tree with parent and child records? @@ Hierarchical model @@ Relational model @@ Network model @@ Document model
+Which database model allows a child record to have more than one parent using links? @@ Network model @@ Hierarchical model @@ Relational model @@ Flat model
+Which language is used to query a relational database? @@ SQL @@ HTML @@ CSS @@ XML only
+Which part of a DBMS translates queries into low-level operations and chooses an efficient way to run them? @@ Query optimizer @@ Compiler of Java @@ Disk driver @@ Web server
+What is a heap file organization? @@ Records are placed wherever there is free space @@ Records are sorted by key @@ Records are hashed by key @@ Records are compressed
+What is hashing in file organization used for? @@ Finding a record's location directly from its key @@ Sorting records @@ Encrypting records @@ Deleting records
+What is a dense index? @@ An index with an entry for every search-key value @@ An index with one entry per block only @@ An index with no entries @@ An index of indexes
+What is a sparse index? @@ An index with entries for only some search-key values @@ An index with an entry for every record @@ A deleted index @@ An index with NULL values

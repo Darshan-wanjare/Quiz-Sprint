@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon: white question mark on indigo (kept inside the 66dp safe zone) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="2.2"
+        android:scaleY="2.2"
+        android:translateX="27.6"
+        android:translateY="28.8">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M11,17h2v-2h-2v2zM12,6c-1.93,0 -3.5,1.57 -3.5,3.5h2c0,-0.83 0.67,-1.5 1.5,-1.5s1.5,0.67 1.5,1.5c0,1.5 -2.25,1.31 -2.25,3.75h2c0,-1.69 2.25,-1.88 2.25,-3.75C15.5,7.57 13.93,6 12,6z" />
+    </group>
+</vector>

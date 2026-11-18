@@ -1,0 +1,216 @@
+# JAVA questions.   One line = one question:
+#   question @@ CORRECT answer @@ wrong 1 @@ wrong 2 @@ wrong 3
+# The CORRECT answer must always be written first. The app shuffles the options itself.
+# After editing this file, increase dbversion in DBmanager.java by 1.
+Which keyword is used to inherit a class in Java? @@ extends @@ implements @@ inherits @@ super
+What is the size of an int in Java? @@ 4 bytes @@ 2 bytes @@ 8 bytes @@ Depends on the platform
+Which of these is NOT a primitive data type? @@ String @@ int @@ boolean @@ char
+Which method is the entry point of a Java program? @@ main() @@ start() @@ run() @@ init()
+Which keyword stops a method from being overridden? @@ final @@ static @@ abstract @@ const
+Which collection does NOT allow duplicate elements? @@ HashSet @@ ArrayList @@ LinkedList @@ Vector
+Which keyword is used to create an object? @@ new @@ this @@ class @@ create
+What is the default value of an int instance variable? @@ 0 @@ null @@ 1 @@ undefined
+Which exception occurs when an array index is out of range? @@ ArrayIndexOutOfBoundsException @@ NullPointerException @@ ArithmeticException @@ NumberFormatException
+Which statement exits a loop immediately? @@ break @@ continue @@ skip @@ stop
+What is the size of a long in Java? @@ 8 bytes @@ 4 bytes @@ 2 bytes @@ 16 bytes
+What is the size of a char in Java? @@ 2 bytes @@ 1 byte @@ 4 bytes @@ 8 bytes
+What is the size of a byte in Java? @@ 1 byte @@ 2 bytes @@ 4 bytes @@ 8 bytes
+What is the size of a short in Java? @@ 2 bytes @@ 1 byte @@ 4 bytes @@ 8 bytes
+What is the size of a double in Java? @@ 8 bytes @@ 4 bytes @@ 2 bytes @@ 16 bytes
+What is the size of a float in Java? @@ 4 bytes @@ 8 bytes @@ 2 bytes @@ 1 byte
+What is the range of the byte data type? @@ -128 to 127 @@ 0 to 255 @@ -256 to 255 @@ -127 to 128
+What is the default value of a boolean instance variable? @@ false @@ true @@ null @@ 0
+What is the default value of an object reference variable? @@ null @@ 0 @@ undefined @@ empty
+What is the default value of a double instance variable? @@ 0.0 @@ 0 @@ null @@ 1.0
+What is the default value of a char instance variable? @@ '\u0000' (null character) @@ ' ' (space) @@ '0' @@ 'a'
+Which data type is used to store a true or false value? @@ boolean @@ bit @@ binary @@ char
+Which data type should be used to store 3.14 with the most precision? @@ double @@ float @@ int @@ long
+Which of these is a valid way to declare an integer variable? @@ int age = 20; @@ integer age = 20; @@ age int = 20; @@ int = age 20;
+What does JVM stand for? @@ Java Virtual Machine @@ Java Variable Method @@ Java Visual Model @@ Joint Virtual Memory
+What does JDK stand for? @@ Java Development Kit @@ Java Deployment Key @@ Java Debug Kernel @@ Java Data Kit
+What does JRE stand for? @@ Java Runtime Environment @@ Java Run Engine @@ Java Resource Editor @@ Java Release Edition
+Which tool compiles a Java source file into bytecode? @@ javac @@ java @@ javadoc @@ jar
+Which command is used to run a compiled Java program? @@ java @@ javac @@ run @@ jvm
+What is the extension of a compiled Java file? @@ .class @@ .java @@ .exe @@ .jar
+What is the extension of a Java source file? @@ .java @@ .class @@ .js @@ .jav
+What does the Java compiler convert source code into? @@ Bytecode @@ Machine code of the CPU @@ Assembly code @@ Binary text
+Which component of Java is responsible for executing bytecode? @@ JVM @@ JDK @@ javac @@ IDE
+Which feature makes Java platform independent? @@ Bytecode @@ Pointers @@ Operator overloading @@ Macros
+Who is the creator of Java? @@ James Gosling @@ Dennis Ritchie @@ Bjarne Stroustrup @@ Guido van Rossum
+Which company originally developed Java? @@ Sun Microsystems @@ Microsoft @@ Apple @@ IBM
+Which of these is NOT a feature of Java? @@ Pointer arithmetic @@ Platform independence @@ Automatic garbage collection @@ Object orientation
+Which memory area stores objects created with new? @@ Heap @@ Stack @@ Register @@ Method area only
+Which memory area stores local variables and method calls? @@ Stack @@ Heap @@ Constant pool @@ Disk
+What is garbage collection in Java? @@ Automatic removal of unused objects from memory @@ Deleting files from disk @@ Removing syntax errors @@ Clearing the screen
+Which method can be called to request garbage collection? @@ System.gc() @@ System.clean() @@ Runtime.free() @@ Object.delete()
+Which method of the Object class is called before an object is garbage collected (older Java)? @@ finalize() @@ destroy() @@ delete() @@ clear()
+What will 10 / 3 give in Java when both are int? @@ 3 @@ 3.33 @@ 4 @@ 3.0
+What will 10 % 3 give in Java? @@ 1 @@ 3 @@ 0 @@ 3.33
+What will 5 / 2.0 give in Java? @@ 2.5 @@ 2 @@ 3 @@ 2.0
+What is the result of (int) 3.99 in Java? @@ 3 @@ 4 @@ 3.99 @@ 3.0
+Which operator is used to compare two values for equality? @@ == @@ = @@ := @@ ===
+Which operator is used for assignment in Java? @@ = @@ == @@ := @@ ->
+Which of these is the logical AND operator? @@ && @@ | @@ || @@ !
+Which of these is the logical OR operator? @@ || @@ && @@ ! @@ ^^
+Which operator is the logical NOT operator? @@ ! @@ ~ @@ # @@ !!
+What is the result of 5 & 3 in Java? @@ 1 @@ 7 @@ 6 @@ 8
+What is the result of 5 | 3 in Java? @@ 7 @@ 1 @@ 6 @@ 15
+What is the result of 5 ^ 3 in Java? @@ 6 @@ 1 @@ 7 @@ 8
+What is the result of 1 << 3 in Java? @@ 8 @@ 3 @@ 4 @@ 16
+What is the result of 16 >> 2 in Java? @@ 4 @@ 8 @@ 2 @@ 64
+What does the ternary operator look like in Java? @@ condition ? value1 : value2 @@ condition : value1 ? value2 @@ condition => value1 | value2 @@ if condition then value1
+What is the value of x after int x = 5; x++; ? @@ 6 @@ 5 @@ 4 @@ 7
+What is the value of y after int x = 5; int y = ++x; ? @@ 6 @@ 5 @@ 4 @@ 7
+What is the value of y after int x = 5; int y = x++; ? @@ 5 @@ 6 @@ 4 @@ 7
+What does the instanceof operator do? @@ Checks whether an object is an instance of a class @@ Creates a new instance @@ Copies an object @@ Compares two numbers
+What is printed by System.out.println("1" + 2); ? @@ 12 @@ 3 @@ 1 2 @@ Error
+What is printed by System.out.println(1 + 2 + "3"); ? @@ 33 @@ 123 @@ 6 @@ 15
+What is printed by System.out.println('a' + 1); ? @@ 98 @@ a1 @@ b @@ 1
+Which statement is used to skip the current iteration of a loop? @@ continue @@ break @@ skip @@ pass
+Which loop is guaranteed to run at least once? @@ do-while @@ while @@ for @@ for-each
+Which loop is best for going through all elements of an array without using an index? @@ for-each loop @@ do-while loop @@ while(true) loop @@ switch loop
+Which keyword is used for a selection among many fixed values? @@ switch @@ select @@ choose @@ case-of
+Which keyword in a switch statement runs when no case matches? @@ default @@ else @@ otherwise @@ final
+What happens in a switch statement if break is missing in a matching case? @@ Execution falls through to the next case @@ A compile error occurs @@ The program stops @@ The default case is skipped and the switch ends
+Which of these is a valid loop? @@ for (int i = 0; i < 5; i++) @@ for (i < 5; i++) @@ loop (int i = 0; i < 5) @@ foreach (int i : 5)
+How many times does for (int i = 0; i < 5; i++) run? @@ 5 @@ 4 @@ 6 @@ Infinite
+What does the length property give for an array? @@ The number of elements @@ The index of the last element @@ The size in bytes @@ The number of dimensions
+What is the index of the first element of an array in Java? @@ 0 @@ 1 @@ -1 @@ It depends on the array
+Which of these correctly creates an int array of size 5? @@ int[] a = new int[5]; @@ int a = new int[5]; @@ int[] a = int[5]; @@ int a[5] = new int;
+What is the default value of elements in a new int array? @@ 0 @@ null @@ -1 @@ Garbage values
+What is the default value of elements in a new String array? @@ null @@ "" (empty string) @@ 0 @@ "null" as text
+How do you get the number of characters in a String s? @@ s.length() @@ s.length @@ s.size() @@ s.count()
+Which method returns the character at a given position in a String? @@ charAt() @@ getChar() @@ indexAt() @@ elementAt()
+What does "Hello".substring(1, 3) return? @@ el @@ He @@ ell @@ ello
+What does "Hello".charAt(1) return? @@ e @@ H @@ l @@ o
+What does "java".toUpperCase() return? @@ JAVA @@ Java @@ java @@ jAVA
+Which method compares the content of two Strings? @@ equals() @@ == @@ compare() only @@ same()
+What does the == operator compare for two String objects? @@ Their references @@ Their contents @@ Their lengths @@ Their hash codes only
+Which statement about the String class is true? @@ Strings are immutable @@ Strings are mutable @@ Strings are primitive types @@ Strings are always stored in the stack
+Which class should be used for a String that changes often? @@ StringBuilder @@ String @@ Character @@ Object
+Which method of StringBuilder adds text at the end? @@ append() @@ add() @@ concat() @@ insertEnd()
+Which method removes spaces from both ends of a String? @@ trim() @@ clean() @@ cut() @@ remove()
+Which method checks whether a String contains a given sequence? @@ contains() @@ has() @@ includes() @@ find()
+Which method returns the position of a character in a String? @@ indexOf() @@ position() @@ find() @@ search()
+Which String method splits a String into an array using a separator? @@ split() @@ divide() @@ cut() @@ tokenize()
+What does "abc".compareTo("abd") return? @@ A negative number @@ 0 @@ A positive number @@ true
+What does "Hello".equalsIgnoreCase("HELLO") return? @@ true @@ false @@ 0 @@ Error
+Which keyword refers to the current object? @@ this @@ self @@ current @@ me
+Which keyword refers to the parent class? @@ super @@ parent @@ base @@ this
+What is a constructor? @@ A special method that runs when an object is created @@ A method that destroys an object @@ A variable of a class @@ A type of loop
+What is the name of a constructor in Java? @@ Same as the class name @@ Always init @@ Always main @@ Any name starting with new
+Can a constructor have a return type? @@ No @@ Yes, void @@ Yes, int @@ Only in abstract classes
+What is a constructor with no parameters called? @@ Default constructor @@ Empty method @@ Static constructor @@ Null constructor
+What is it called when a class has two methods with the same name but different parameters? @@ Method overloading @@ Method overriding @@ Method hiding @@ Method chaining
+What is it called when a subclass gives its own version of a parent class method? @@ Method overriding @@ Method overloading @@ Method hiding only @@ Method casting
+Which OOP concept means wrapping data and methods together in a class? @@ Encapsulation @@ Polymorphism @@ Inheritance @@ Compilation
+Which OOP concept allows one class to acquire properties of another class? @@ Inheritance @@ Encapsulation @@ Abstraction @@ Serialization
+Which OOP concept means one thing having many forms? @@ Polymorphism @@ Abstraction @@ Encapsulation @@ Inheritance
+Which OOP concept hides the internal details and shows only the essential features? @@ Abstraction @@ Inheritance @@ Overloading @@ Casting
+Which access modifier makes a member visible only inside its own class? @@ private @@ protected @@ public @@ default
+Which access modifier makes a member visible everywhere? @@ public @@ private @@ protected @@ static
+Which access modifier allows access in the same package and in subclasses? @@ protected @@ private @@ public @@ final
+Which keyword is used to make a member belong to the class instead of an object? @@ static @@ final @@ abstract @@ this
+Which keyword is used to declare a constant variable? @@ final @@ const @@ static @@ constant
+What happens if you try to change a final variable after assigning it? @@ A compile-time error @@ A runtime exception @@ The value changes silently @@ The old value is kept silently
+Which keyword prevents a class from being inherited? @@ final @@ static @@ private @@ abstract
+Which keyword is used to declare an abstract class? @@ abstract @@ virtual @@ interface @@ base
+Can an abstract class be instantiated directly with new? @@ No @@ Yes @@ Only if it has a constructor @@ Only in the same package
+Which keyword is used by a class to implement an interface? @@ implements @@ extends @@ inherits @@ uses
+Which keyword is used by an interface to inherit another interface? @@ extends @@ implements @@ inherits @@ imports
+Can a class implement more than one interface in Java? @@ Yes @@ No @@ Only two @@ Only if they are in the same package
+Can a class extend more than one class in Java? @@ No @@ Yes @@ Only two @@ Only abstract classes
+Which of these is true about Java interface variables? @@ They are public static final by default @@ They are private by default @@ They can be changed freely @@ They are instance variables
+Which Java version introduced default methods in interfaces? @@ Java 8 @@ Java 5 @@ Java 6 @@ Java 11
+Which class is the parent of all classes in Java? @@ Object @@ Class @@ System @@ Main
+Which method of the Object class returns a String representation of the object? @@ toString() @@ string() @@ print() @@ show()
+Which Object class method compares two objects for equality? @@ equals() @@ compare() @@ same() @@ isEqual()
+Which Object class method returns an integer code for an object? @@ hashCode() @@ code() @@ getId() @@ number()
+Which package is imported automatically in every Java program? @@ java.lang @@ java.util @@ java.io @@ java.net
+Which keyword is used to include a package in a program? @@ import @@ include @@ using @@ require
+Which keyword is used to define a package? @@ package @@ namespace @@ module @@ folder
+Which package contains the Scanner class? @@ java.util @@ java.lang @@ java.io @@ java.text
+Which Scanner method reads a whole line of text? @@ nextLine() @@ next() @@ readAll() @@ getLine()
+Which Scanner method reads an int value? @@ nextInt() @@ readInt() @@ getInt() @@ parseInt()
+Which statement prints text and moves to a new line? @@ System.out.println() @@ System.out.print() @@ System.out.write() @@ System.out.line()
+Which is the correct way to write a single-line comment in Java? @@ // comment @@ # comment @@ /* comment @@ -- comment
+Which is the correct way to write a multi-line comment in Java? @@ /* comment */ @@ // comment // @@ <!-- comment --> @@ ** comment **
+Which of these is a valid Java identifier? @@ _count @@ 2count @@ my-var @@ class
+Which of these is a Java keyword? @@ goto @@ function @@ var1 @@ string
+Which wrapper class is for the int primitive type? @@ Integer @@ Int @@ Number @@ Intg
+Which wrapper class is for the char primitive type? @@ Character @@ Char @@ String @@ Chr
+What is autoboxing? @@ Automatic conversion of a primitive to its wrapper object @@ Automatic conversion of a String to an int @@ Putting objects into an array @@ Compressing objects in memory
+What does Integer.parseInt("25") return? @@ 25 as an int @@ "25" as a String @@ 25.0 as a double @@ 2 and 5 separately
+Which exception is thrown by Integer.parseInt("abc")? @@ NumberFormatException @@ ArithmeticException @@ ClassCastException @@ IOException
+Which exception is thrown when dividing an int by zero? @@ ArithmeticException @@ NumberFormatException @@ NullPointerException @@ IOException
+Which exception is thrown when calling a method on a null reference? @@ NullPointerException @@ ArithmeticException @@ IllegalStateException @@ ClassNotFoundException
+Which exception is thrown when an object is cast to an incompatible type? @@ ClassCastException @@ TypeMismatchException @@ CastException @@ InvalidTypeException
+Which block always executes whether or not an exception occurs? @@ finally @@ catch @@ try @@ throw
+Which keyword is used to manually throw an exception? @@ throw @@ throws @@ raise @@ catch
+Which keyword is used in a method signature to declare the exceptions it may pass on? @@ throws @@ throw @@ raises @@ except
+Which of these is a checked exception? @@ IOException @@ NullPointerException @@ ArithmeticException @@ ArrayIndexOutOfBoundsException
+Which of these is an unchecked exception? @@ NullPointerException @@ IOException @@ FileNotFoundException @@ SQLException
+Which class is the parent of all exceptions and errors in Java? @@ Throwable @@ Exception @@ Error @@ Object only
+Which block is used to handle an exception? @@ catch @@ try @@ finally @@ throws
+Can one try block have multiple catch blocks? @@ Yes @@ No @@ Only two @@ Only for checked exceptions
+Which of these is the correct way to start exception handling? @@ try { } catch (Exception e) { } @@ catch { } try { } @@ try() { } except { } @@ handle { } catch { }
+Which interface is the parent of both List and Set? @@ Collection @@ Map @@ Iterator @@ Comparable
+Which collection class keeps elements in insertion order and allows duplicates? @@ ArrayList @@ HashSet @@ TreeSet @@ HashMap
+Which collection stores key-value pairs? @@ HashMap @@ ArrayList @@ HashSet @@ Stack
+Can a HashMap have duplicate keys? @@ No @@ Yes @@ Only two @@ Only for null keys
+Does HashMap allow a null key? @@ Yes, one null key @@ No @@ Yes, any number of null keys @@ Only in Java 8
+Which collection keeps its elements sorted? @@ TreeSet @@ HashSet @@ ArrayList @@ LinkedList
+Which Map keeps its keys in insertion order? @@ LinkedHashMap @@ HashMap @@ TreeMap @@ Hashtable
+Which Map keeps its keys sorted? @@ TreeMap @@ HashMap @@ LinkedHashMap @@ IdentityHashMap
+Which data structure follows LIFO (last in, first out)? @@ Stack @@ Queue @@ ArrayList @@ HashMap
+Which data structure follows FIFO (first in, first out)? @@ Queue @@ Stack @@ TreeSet @@ HashSet
+Which method adds an element to the end of an ArrayList? @@ add() @@ push() @@ insert() @@ append()
+Which method returns the number of elements in an ArrayList? @@ size() @@ length() @@ count() @@ length
+Which method gets the element at a given index in an ArrayList? @@ get() @@ at() @@ fetch() @@ element()
+Which method removes all elements from a collection? @@ clear() @@ empty() @@ delete() @@ erase()
+Which method of a Map returns the value for a given key? @@ get() @@ find() @@ value() @@ fetch()
+Which method of a Map adds or updates a key-value pair? @@ put() @@ add() @@ insert() @@ set()
+Which interface is used to go through the elements of a collection one by one? @@ Iterator @@ Enumerator @@ Looper @@ Walker
+Which method of Iterator checks if more elements remain? @@ hasNext() @@ next() @@ hasMore() @@ isNext()
+Which interface is used to define the natural ordering of objects? @@ Comparable @@ Comparator @@ Sortable @@ Orderable
+Which method must a class implement to implement Comparable? @@ compareTo() @@ compare() @@ sort() @@ equals()
+Which class has static methods like sort() for lists? @@ Collections @@ Collection @@ Arrays only @@ Lists
+What is the main difference between ArrayList and Vector? @@ Vector is synchronized, ArrayList is not @@ ArrayList is synchronized, Vector is not @@ Vector cannot store objects @@ ArrayList cannot grow
+Which is faster for random access by index? @@ ArrayList @@ LinkedList @@ Both equal always @@ HashSet
+What are generics used for in Java? @@ Type safety for collections and classes @@ Faster loops @@ Creating threads @@ Connecting to databases
+Which symbol is used to write a generic type? @@ <T> @@ [T] @@ (T) @@ {T}
+Which of these correctly creates an ArrayList of Strings? @@ ArrayList<String> list = new ArrayList<>(); @@ ArrayList list<String> = new ArrayList(); @@ ArrayList<String> list = new String[](); @@ List<String> = new ArrayList();
+Which interface must be implemented to create a thread by implementing it? @@ Runnable @@ Callable only @@ Threadable @@ Executable
+Which class can be extended to create a thread? @@ Thread @@ Runnable @@ Process @@ Task
+Which method starts a new thread of execution? @@ start() @@ run() @@ begin() @@ execute()
+What happens if run() is called directly instead of start()? @@ It runs like a normal method in the same thread @@ A new thread is created @@ A compile error occurs @@ The thread starts after a delay
+Which method pauses the current thread for some milliseconds? @@ Thread.sleep() @@ Thread.pause() @@ Thread.stop() @@ Thread.delay()
+Which method makes one thread wait until another thread finishes? @@ join() @@ sleep() @@ stop() @@ yield()
+Which keyword is used to allow only one thread at a time to run a method? @@ synchronized @@ volatile @@ transient @@ static
+Which keyword stops a field from being serialized? @@ transient @@ volatile @@ static @@ final
+Which of these is NOT a state of a thread? @@ Sleeping @@ Runnable @@ Blocked @@ Terminated
+What is the name of the thread that runs the main() method? @@ main @@ Thread-0 @@ primary @@ root
+What is an enum in Java? @@ A special class that holds a fixed set of constants @@ A type of loop @@ A kind of exception @@ A collection class
+Which keyword is used to declare an enum? @@ enum @@ enumeration @@ constants @@ set
+What is a varargs parameter? @@ A parameter that accepts a variable number of arguments @@ A parameter that cannot be changed @@ A parameter of type Object only @@ A parameter that is optional and ignored
+Which symbol is used for varargs in a method parameter? @@ ... @@ ** @@ [] @@ &&
+What is a static block used for? @@ To run code once when the class is loaded @@ To run code on every object creation @@ To handle exceptions @@ To create threads
+Which file is generated by javadoc? @@ HTML documentation @@ Bytecode @@ A jar file @@ A log file
+What does the final keyword mean on a method parameter? @@ The parameter cannot be reassigned inside the method @@ The method cannot be called @@ The parameter is optional @@ The parameter is global
+Which symbol is used in a lambda expression? @@ -> @@ => @@ :: @@ <-
+Which functional interface represents a task with no parameters and no return value? @@ Runnable @@ Supplier @@ Function @@ Predicate
+What does the :: operator create in Java 8? @@ A method reference @@ A comment @@ A new thread @@ A package alias
+Which statement about Java strings is true? @@ String literals are stored in the string pool @@ Every String is stored on the stack @@ Strings can be changed in place @@ Strings are primitives
+Which keyword is used to create a class in Java? @@ class @@ Class @@ object @@ struct
+Which of these is a correct main method signature? @@ public static void main(String[] args) @@ public void main(String args) @@ static main(String[] args) @@ public static int main(String[] args)
+Why is the main method declared static? @@ So the JVM can call it without creating an object @@ So it can be overloaded @@ So it can return a value @@ So it can be inherited
+Which of these is the correct way to read a file character by character? @@ FileReader @@ FileWriter @@ PrintStream @@ BufferedWriter
+Which class is used to write text to a file? @@ FileWriter @@ FileReader @@ Scanner @@ InputStream
+Which Math method returns the largest of two numbers? @@ Math.max() @@ Math.large() @@ Math.top() @@ Math.big()
+What does Math.sqrt(16) return? @@ 4.0 @@ 4 @@ 8.0 @@ 256.0
+What does Math.pow(2, 3) return? @@ 8.0 @@ 6.0 @@ 9.0 @@ 5.0
+What does Math.abs(-5) return? @@ 5 @@ -5 @@ 0 @@ 25
+What does Math.ceil(2.1) return? @@ 3.0 @@ 2.0 @@ 2.1 @@ 3
+What does Math.floor(2.9) return? @@ 2.0 @@ 3.0 @@ 2.9 @@ 2
+What does Math.round(2.5) return? @@ 3 @@ 2 @@ 2.5 @@ 3.0
+Which class generates random numbers in java.util? @@ Random @@ Rand @@ Number @@ Generator

@@ -1,0 +1,225 @@
+# ANDROID questions.   One line = one question:
+#   question @@ CORRECT answer @@ wrong 1 @@ wrong 2 @@ wrong 3
+# The CORRECT answer must always be written first. The app shuffles the options itself.
+# After editing this file, increase dbversion in DBmanager.java by 1.
+Which file declares all the activities of an Android app? @@ AndroidManifest.xml @@ build.gradle @@ strings.xml @@ MainActivity.java
+Which lifecycle method is called first when an activity is created? @@ onCreate() @@ onStart() @@ onResume() @@ onRestart()
+Which class is used to start another activity? @@ Intent @@ Bundle @@ Context @@ Service
+Which widget shows a drop-down list of items? @@ Spinner @@ TextView @@ ToggleButton @@ RatingBar
+Which layout positions views using constraints? @@ ConstraintLayout @@ LinearLayout @@ TableLayout @@ FrameLayout
+Which class shows a short pop-up message on the screen? @@ Toast @@ Dialog @@ Notification @@ Log
+Which class is used to create and manage an SQLite database? @@ SQLiteOpenHelper @@ SQLConnection @@ DatabaseManager @@ JDBCHelper
+Which method is called when an activity is no longer visible? @@ onStop() @@ onPause() @@ onDestroy() @@ onStart()
+Which resource folder stores the layout XML files? @@ layout @@ values @@ drawable @@ mipmap
+Which tool in Android Studio shows Log.d() messages? @@ Logcat @@ Gradle @@ Emulator @@ Profiler
+Which operating system kernel is Android based on? @@ Linux @@ Windows @@ macOS @@ Unix System V only
+Which company develops and maintains Android? @@ Google @@ Microsoft @@ Apple @@ Samsung
+What is the official IDE for Android development? @@ Android Studio @@ Visual Studio @@ Xcode @@ NetBeans only
+Which two languages are officially supported by Google for Android app development? @@ Kotlin and Java @@ Swift and Objective-C @@ Python and Ruby @@ C# and PHP
+What does APK stand for? @@ Android Package Kit @@ Android Program Key @@ Application Process Kernel @@ Android Phone Kit
+What is an APK file? @@ The file used to install an Android app @@ A source code file @@ A database file @@ A layout file
+Which build system does Android Studio use? @@ Gradle @@ Make only @@ Ant only @@ Maven only
+Which file contains the app-level Gradle build settings? @@ app/build.gradle @@ AndroidManifest.xml @@ settings.xml @@ gradle.xml
+Which Gradle setting gives the unique ID of an app? @@ applicationId @@ appName @@ packageLabel @@ versionName
+What does minSdk specify? @@ The lowest Android version the app can run on @@ The highest Android version supported @@ The size of the app @@ The minimum RAM needed
+What does ADB stand for? @@ Android Debug Bridge @@ Android Data Backup @@ Application Debug Block @@ Android Device Browser
+What does AVD stand for? @@ Android Virtual Device @@ Android Visual Designer @@ Application Version Display @@ Android Video Driver
+What is the Android Emulator used for? @@ Running and testing apps on a virtual device @@ Writing Java code @@ Designing icons only @@ Compiling Gradle files
+Which runtime executes apps on modern Android versions? @@ ART (Android Runtime) @@ JRE @@ .NET CLR @@ V8 only
+What does ART replace as the default runtime? @@ Dalvik @@ JVM @@ Linux kernel @@ WebKit
+Which file format contains the compiled code that runs on Android? @@ DEX @@ EXE @@ DLL @@ JAR only
+Which of these is NOT a main component of an Android app? @@ Layout @@ Activity @@ Service @@ Content Provider
+Which Android component represents a single screen with a user interface? @@ Activity @@ Service @@ Broadcast Receiver @@ Content Provider
+Which Android component runs in the background without a user interface? @@ Service @@ Activity @@ Fragment @@ Layout
+Which Android component responds to system-wide announcements such as low battery? @@ Broadcast Receiver @@ Activity @@ Fragment @@ Spinner
+Which Android component shares data between different apps? @@ Content Provider @@ Fragment @@ Toast @@ Adapter
+Which class is the base class of an activity that uses AppCompat features? @@ AppCompatActivity @@ Activity only @@ Application @@ Context
+Which method sets the layout of an activity? @@ setContentView() @@ setLayout() @@ loadView() @@ showLayout()
+Which method finds a view from the layout by its id? @@ findViewById() @@ getView() @@ searchId() @@ locateView()
+What does R.id.button1 refer to? @@ A view with the id button1 from the generated R class @@ A Java class named button1 @@ A string named button1 @@ A database column
+Which generated class holds the ids of all resources? @@ R @@ Resources.xml @@ Ids @@ Manifest
+In which order are the first three lifecycle methods called when an activity starts? @@ onCreate, onStart, onResume @@ onStart, onCreate, onResume @@ onResume, onStart, onCreate @@ onCreate, onResume, onStart
+Which lifecycle method is called when the activity becomes visible? @@ onStart() @@ onCreate() @@ onPause() @@ onDestroy()
+Which lifecycle method is called when the activity starts interacting with the user? @@ onResume() @@ onStart() @@ onStop() @@ onCreate()
+Which lifecycle method is called when another activity comes in front but this one is still partly visible? @@ onPause() @@ onStop() @@ onDestroy() @@ onRestart()
+Which lifecycle method is called just before an activity is destroyed? @@ onDestroy() @@ onStop() @@ onPause() @@ onCreate()
+Which lifecycle method is called when a stopped activity comes back to the screen? @@ onRestart() @@ onCreate() @@ onDestroy() @@ onPause()
+Which lifecycle methods are called when the user presses the Home button? @@ onPause() then onStop() @@ onDestroy() only @@ onCreate() then onStart() @@ onRestart() only
+Which method is a good place to save UI data before the activity may be destroyed? @@ onSaveInstanceState() @@ onCreate() @@ onStart() @@ onRestart()
+What happens to an activity by default when the screen is rotated? @@ It is destroyed and created again @@ Nothing happens @@ The app closes @@ It is paused forever
+What does finish() do in an activity? @@ Closes the current activity @@ Closes the whole phone app list @@ Restarts the activity @@ Pauses the activity
+Which object is used to pass data between activities? @@ Intent extras @@ Layout file @@ Manifest file @@ Gradle file
+Which method adds data to an Intent? @@ putExtra() @@ addData() only @@ setValue() @@ attach()
+Which method reads a String sent through an Intent? @@ getStringExtra() @@ readString() @@ fetchExtra() @@ getValue()
+Which method opens a new activity? @@ startActivity() @@ openActivity() @@ launch() only @@ beginActivity()
+What is an explicit intent? @@ An intent that names the exact component to start @@ An intent that only describes an action @@ An intent that cannot carry data @@ An intent sent only to services
+What is an implicit intent? @@ An intent that describes an action and lets the system find a matching app @@ An intent that names the exact class @@ An intent that deletes an activity @@ An intent with no action
+Which intent action is used to open a web page? @@ Intent.ACTION_VIEW @@ Intent.ACTION_CALL_WEB @@ Intent.ACTION_OPEN_URL @@ Intent.ACTION_SHOW
+Which intent action opens the phone dialer with a number filled in? @@ Intent.ACTION_DIAL @@ Intent.ACTION_RING @@ Intent.ACTION_PHONE @@ Intent.ACTION_TALK
+Which intent action is used to share text with other apps? @@ Intent.ACTION_SEND @@ Intent.ACTION_SHARE_ALL @@ Intent.ACTION_POST @@ Intent.ACTION_PUSH
+Which intent action opens the camera to take a photo? @@ MediaStore.ACTION_IMAGE_CAPTURE @@ Intent.ACTION_CAMERA @@ Intent.ACTION_PHOTO @@ MediaStore.TAKE_PICTURE_NOW
+Which manifest tag describes the types of intents a component can respond to? @@ <intent-filter> @@ <intent-type> @@ <action-list> @@ <receiver-filter>
+Which intent filter category makes an activity appear in the app launcher? @@ android.intent.category.LAUNCHER @@ android.intent.category.HOME_ICON @@ android.intent.category.START @@ android.intent.category.FIRST
+Which action marks an activity as the main entry point of the app? @@ android.intent.action.MAIN @@ android.intent.action.START @@ android.intent.action.FIRST @@ android.intent.action.RUN
+Which attribute in the manifest makes a component usable by other apps? @@ android:exported @@ android:public @@ android:shared @@ android:open
+Which manifest tag asks for a permission? @@ <uses-permission> @@ <ask-permission> @@ <permission-request> @@ <need-permission>
+Which permission is needed to use the internet? @@ android.permission.INTERNET @@ android.permission.NETWORK_USE @@ android.permission.WEB @@ android.permission.ONLINE
+Which permission is needed to use the camera? @@ android.permission.CAMERA @@ android.permission.PHOTO @@ android.permission.LENS @@ android.permission.IMAGE
+Which permission is needed to get an accurate GPS location? @@ ACCESS_FINE_LOCATION @@ GPS_ACCESS @@ READ_LOCATION @@ LOCATION_NOW
+From which Android version do dangerous permissions need to be asked at runtime? @@ Android 6.0 (Marshmallow) @@ Android 2.3 @@ Android 4.0 @@ Android 4.4
+Which method checks whether a permission is already granted? @@ checkSelfPermission() @@ hasPermission() @@ isGranted() @@ verifyPermission()
+Which method asks the user for a runtime permission? @@ requestPermissions() @@ askPermission() @@ grantPermission() @@ getPermission()
+Which widget is used to show plain text on the screen? @@ TextView @@ EditText @@ Button @@ ImageView
+Which widget lets the user type text? @@ EditText @@ TextView @@ ImageView @@ ProgressBar
+Which widget shows an image? @@ ImageView @@ TextView @@ Spinner @@ SeekBar
+Which widget shows a clickable button? @@ Button @@ TextView @@ ProgressBar @@ ImageView only
+Which widget lets the user pick many options by ticking boxes? @@ CheckBox @@ RadioButton @@ Spinner @@ TextView
+Which widget lets the user pick only one option from a group? @@ RadioButton inside a RadioGroup @@ CheckBox @@ EditText @@ ImageView
+Which container must hold RadioButtons so that only one can be selected? @@ RadioGroup @@ CheckBoxGroup @@ ButtonGroup @@ ScrollView
+Which widget is used to show a progress of a task? @@ ProgressBar @@ RatingBar @@ Spinner @@ ToggleButton
+Which widget lets the user give a star rating? @@ RatingBar @@ SeekBar @@ ProgressBar @@ Switch
+Which RatingBar method returns the rating given by the user? @@ getRating() @@ getStars() @@ getValue() @@ getScore()
+Which widget lets the user slide to choose a value? @@ SeekBar @@ RatingBar @@ TextView @@ Spinner
+Which widget is an on/off switch? @@ Switch @@ SeekBar @@ Spinner @@ ImageButton
+Which widget shows a scrollable list of items using an adapter? @@ ListView @@ TextView @@ ImageView @@ Button
+Which widget is the modern and efficient way to show long lists? @@ RecyclerView @@ TextView @@ Spinner @@ TableRow
+What does RecyclerView do with views that scroll off the screen? @@ Reuses them for new items @@ Deletes them forever @@ Sends them to the server @@ Hides them in the manifest
+Which class holds the views of one list item in a RecyclerView? @@ ViewHolder @@ ItemHolder @@ RowBox @@ ListCell
+What is an Adapter in Android? @@ A bridge between data and a view such as a list or spinner @@ A charging cable @@ A type of permission @@ A kind of layout
+Which adapter class can show an array of Strings in a list or spinner? @@ ArrayAdapter @@ StringAdapter @@ TextAdapter @@ ListConverter
+Which listener is used to handle a Spinner selection? @@ OnItemSelectedListener @@ OnSpinnerClickListener @@ OnChooseListener @@ OnSelectListener
+Which method is called when an item is selected in a Spinner? @@ onItemSelected() @@ onSelect() @@ onChoose() @@ onSpinnerChange()
+Which listener is used to handle a button click? @@ OnClickListener @@ OnPressListener @@ OnTapListener @@ OnButtonListener
+Which method attaches a click listener to a view? @@ setOnClickListener() @@ addClick() @@ onClickSet() @@ attachClick()
+Which XML attribute sets a click handler method directly on a Button? @@ android:onClick @@ android:handler @@ android:action @@ android:click
+Which method gets the text typed in an EditText as a String? @@ getText().toString() @@ getString() @@ readText() @@ text()
+Which method puts text into a TextView? @@ setText() @@ putText() @@ writeText() @@ addText()
+Which EditText inputType shows the email keyboard? @@ textEmailAddress @@ emailType @@ mailKeyboard @@ textMail
+Which inputType hides the characters typed as dots? @@ textPassword @@ hidden @@ secret @@ passwordMode
+Which attribute shows grey hint text in an EditText when it is empty? @@ android:hint @@ android:placeholder @@ android:tip @@ android:label
+Which XML attribute sets the id of a view? @@ android:id @@ android:name @@ android:key @@ android:tag
+What does @+id/button1 mean in XML? @@ Create a new id named button1 @@ Use an existing string @@ Use an existing color @@ Delete the id button1
+Which value of layout_width makes a view as wide as its content? @@ wrap_content @@ match_parent @@ fill_all @@ auto_size
+Which value of layout_width makes a view as wide as its parent? @@ match_parent @@ wrap_content @@ full_view @@ max_content
+Which unit should be used for text size? @@ sp @@ dp @@ px @@ pt
+Which unit should be used for sizes and margins of views? @@ dp @@ sp @@ px @@ cm
+What does dp stand for? @@ Density-independent pixels @@ Dot pixels @@ Display points @@ Dynamic pixels
+What is the difference between padding and margin? @@ Padding is space inside a view, margin is space outside it @@ Padding is outside, margin is inside @@ They are exactly the same @@ Padding is only for text
+What does android:gravity do? @@ Aligns the content inside the view @@ Aligns the view inside its parent @@ Changes the view id @@ Changes the font
+What does android:layout_gravity do? @@ Aligns the view inside its parent @@ Aligns the text inside the view @@ Changes the text size @@ Hides the view
+Which attribute sets the direction of a LinearLayout? @@ android:orientation @@ android:direction @@ android:flow @@ android:arrange
+Which attribute gives a LinearLayout child a share of the extra space? @@ android:layout_weight @@ android:layout_share @@ android:layout_size @@ android:layout_ratio
+Which visibility value hides a view and also removes the space it takes? @@ gone @@ invisible @@ hidden @@ collapsed
+Which visibility value hides a view but keeps its space? @@ invisible @@ gone @@ visible @@ removed
+Which layout arranges children in a single row or column? @@ LinearLayout @@ FrameLayout @@ TableLayout @@ GridLayout
+Which layout stacks children on top of each other? @@ FrameLayout @@ LinearLayout @@ TableLayout @@ GridLayout
+Which layout arranges children in rows and columns of a table? @@ TableLayout @@ FrameLayout @@ RelativeLayout @@ LinearLayout
+Which layout positions children relative to each other or to the parent? @@ RelativeLayout @@ TableLayout @@ FrameLayout @@ ScrollLayout
+Which view allows its content to scroll when it is bigger than the screen? @@ ScrollView @@ FrameLayout @@ ProgressBar @@ TextView
+What is the base class of all widgets in Android? @@ View @@ Widget @@ Layout @@ Component
+What is a ViewGroup? @@ A view that can contain other views @@ A group of activities @@ A group of permissions @@ A type of database
+Which folder stores images such as PNG and XML shapes used in the app? @@ drawable @@ values @@ layout @@ menu
+Which folder stores launcher icons? @@ mipmap @@ values @@ menu @@ layout
+Which folder stores strings, colors and styles? @@ values @@ layout @@ drawable @@ mipmap
+Which file normally holds the text strings used in the app? @@ res/values/strings.xml @@ res/layout/strings.xml @@ AndroidManifest.xml @@ build.gradle
+Which file normally holds the color definitions? @@ res/values/colors.xml @@ res/layout/colors.xml @@ MainActivity.java @@ gradle.properties
+Which folder holds XML files that define menus? @@ menu @@ layout @@ values @@ xml-menu
+Which folder holds raw files such as audio that are used as they are? @@ raw @@ values @@ drawable @@ menu
+Why should strings be kept in strings.xml? @@ It makes translation and reuse easier @@ It makes the app bigger @@ It is needed to compile Java @@ It stops the app from crashing
+Which folder suffix is used for a different layout in landscape mode? @@ layout-land @@ layout-landscape-xml @@ layout-wide @@ landscape-layout
+Which folder is used for resources in night (dark) mode? @@ values-night @@ values-dark-only @@ night-values @@ dark/values
+What does hdpi, xhdpi and xxhdpi describe? @@ Screen density buckets @@ Android versions @@ Programming languages @@ Gradle plugins
+What is a Toast used for? @@ Showing a short message that disappears by itself @@ Starting a service @@ Saving data @@ Creating a database
+Which method shows a Toast on the screen? @@ show() @@ display() @@ print() @@ popup()
+Which two constants set the duration of a Toast? @@ LENGTH_SHORT and LENGTH_LONG @@ SHORT_TIME and LONG_TIME @@ TIME_1 and TIME_2 @@ DURATION_MIN and DURATION_MAX
+What is an AlertDialog used for? @@ Showing a message and asking the user to choose a button @@ Showing a long list from the internet @@ Creating a database @@ Playing music
+Which class is used to build an AlertDialog? @@ AlertDialog.Builder @@ DialogMaker @@ AlertFactory @@ DialogCreator
+Which method adds a YES-style confirming button to an AlertDialog? @@ setPositiveButton() @@ setYesButton() @@ addConfirm() @@ setOkOnly()
+Which method adds a NO-style cancelling button to an AlertDialog? @@ setNegativeButton() @@ setNoButton() @@ addCancel() @@ setCloseOnly()
+Which AlertDialog method makes the dialog not close when the user taps outside it? @@ setCancelable(false) @@ setLocked(true) @@ setModal(true) @@ setFixed(true)
+Which Material component shows a short message at the bottom of the screen with an optional action button? @@ Snackbar @@ Toast @@ AlertDialog @@ Spinner
+Which class shows a log message for developers? @@ Log @@ Toast @@ Print @@ Console
+Which method writes a debug message to Logcat? @@ Log.d() @@ Log.e() @@ Log.i() @@ Log.w()
+Which method writes an error message to Logcat? @@ Log.e() @@ Log.d() @@ Log.v() @@ Log.i()
+Which Log method is for warnings? @@ Log.w() @@ Log.d() @@ Log.e() @@ Log.v()
+Which Log method is for information messages? @@ Log.i() @@ Log.e() @@ Log.w() @@ Log.d()
+Which Log method is for verbose messages? @@ Log.v() @@ Log.d() @@ Log.i() @@ Log.e()
+Which storage option stores small key-value pairs? @@ SharedPreferences @@ SQLite @@ Content Provider @@ Firebase only
+Which method gets a SharedPreferences object by name? @@ getSharedPreferences() @@ getPreferenceFile() @@ openPrefs() @@ loadPrefs()
+Which object is used to change values in SharedPreferences? @@ SharedPreferences.Editor @@ PreferenceWriter @@ PrefEdit @@ ValueWriter
+Which method saves SharedPreferences changes in the background? @@ apply() @@ save() @@ flush() @@ write()
+Which mode makes a SharedPreferences file private to the app? @@ MODE_PRIVATE @@ MODE_HIDDEN @@ MODE_SECRET @@ MODE_LOCAL
+Which method returns the private internal files folder of an app? @@ getFilesDir() @@ getInternalPath() @@ getAppFolder() @@ getDataPath()
+Which method is called the first time an SQLite database is created by SQLiteOpenHelper? @@ onCreate() @@ onUpgrade() @@ onOpen() only @@ onStart()
+Which method of SQLiteOpenHelper is called when the database version number increases? @@ onUpgrade() @@ onCreate() @@ onDowngrade() @@ onVersion()
+Which method gives a database that can be written to? @@ getWritableDatabase() @@ getWriteDb() @@ openWritable() @@ writeDatabase()
+Which method gives a database that is used only for reading? @@ getReadableDatabase() @@ getReadDb() @@ openReadOnly() @@ readDatabase()
+Which class holds column names and values to insert into a table? @@ ContentValues @@ ColumnValues @@ RowData @@ ValueMap
+Which method inserts a row into an SQLite table? @@ insert() @@ add() @@ put() @@ append()
+What does SQLiteDatabase.insert() return when it fails? @@ -1 @@ 0 @@ null @@ false
+Which method runs a SELECT query and returns a Cursor? @@ rawQuery() @@ execSQL() @@ runSelect() @@ fetchAll()
+Which method runs an SQL statement such as CREATE TABLE that returns no data? @@ execSQL() @@ rawQuery() @@ getQuery() @@ runSelect()
+What is a Cursor in Android SQLite? @@ An object that points to the rows returned by a query @@ A mouse pointer @@ A type of layout @@ A kind of permission
+Which Cursor method moves to the next row? @@ moveToNext() @@ next() @@ goForward() @@ stepRow()
+Which Cursor method reads an integer from a column? @@ getInt() @@ readInt() @@ fetchInt() @@ intValue()
+Which method should be called after you finish using a Cursor? @@ close() @@ end() @@ release() @@ finish()
+Which Android Jetpack library is an abstraction layer over SQLite? @@ Room @@ Retrofit @@ Glide @@ Volley
+In Room, which annotation marks a class as a table? @@ @Entity @@ @Table @@ @Database only @@ @Row
+In Room, which annotation marks an interface that holds database queries? @@ @Dao @@ @Query only @@ @Table @@ @Store
+What is a Fragment? @@ A reusable part of the UI hosted inside an activity @@ A broken activity @@ A type of database @@ A kind of service
+Which Fragment method creates and returns the fragment's view? @@ onCreateView() @@ onStart() @@ onAttach() @@ onDetach()
+Which class manages fragments inside an activity? @@ FragmentManager @@ FragmentHost @@ ActivityManager only @@ ViewManager
+What is a Service in Android? @@ A component that does long-running work in the background @@ A screen with buttons @@ A database table @@ A type of layout
+Which method starts a started service? @@ startService() @@ runService() @@ beginService() @@ launchService()
+Which method stops a service from inside the service itself? @@ stopSelf() @@ endNow() @@ killService() @@ closeService()
+Which method of a BroadcastReceiver is called when a broadcast is received? @@ onReceive() @@ onBroadcast() @@ onCatch() @@ onGet()
+Which Android class is used to show notifications? @@ NotificationManager @@ ToastManager @@ AlertManager @@ MessageManager
+From which Android version must a notification belong to a NotificationChannel? @@ Android 8.0 (Oreo) @@ Android 4.0 @@ Android 5.0 @@ Android 7.0
+What does ANR stand for? @@ Application Not Responding @@ Android Network Routing @@ Application Not Running @@ Android New Release
+Which thread should be used to update the user interface? @@ Main (UI) thread @@ Any background thread @@ Only the network thread @@ A database thread
+Which method lets you run code on the UI thread from an activity? @@ runOnUiThread() @@ runInMain() @@ postToScreen() @@ uiRun()
+Which exception occurs when network work is done on the main thread? @@ NetworkOnMainThreadException @@ MainThreadBusyException @@ UiBlockedException @@ ThreadStopException
+Which class is used to count down with a time interval, as in a quiz timer? @@ CountDownTimer @@ TimerTask only @@ StopWatch @@ ClockTick
+Which two methods must be overridden when using CountDownTimer? @@ onTick() and onFinish() @@ onStart() and onStop() @@ onRun() and onEnd() @@ onBegin() and onDone()
+Which class is used to post tasks to a thread's message queue? @@ Handler @@ Broadcaster @@ Manager @@ Poster
+Which Android library is commonly used for REST API calls? @@ Retrofit @@ Room @@ Glide only @@ Espresso
+Which Android library is commonly used to load and show images from URLs? @@ Glide @@ Room @@ JUnit @@ Gradle
+Which testing framework is used for Android UI tests? @@ Espresso @@ Retrofit @@ Glide @@ Room
+Which Google service provides authentication, real-time database and push messaging for apps? @@ Firebase @@ Gradle @@ ADB @@ Logcat
+What is the full form of FCM? @@ Firebase Cloud Messaging @@ Fast Cloud Message @@ File Content Manager @@ Firebase Core Module
+Which Android class provides access to the device sensors? @@ SensorManager @@ SensorHelper @@ DeviceReader @@ MotionManager
+Which sensor measures the device's acceleration? @@ Accelerometer @@ Barometer @@ Proximity sensor @@ Light sensor
+Which Android class is used to play audio files? @@ MediaPlayer @@ SoundMaker @@ AudioView @@ MusicBox
+Which view is used to show a web page inside an app? @@ WebView @@ HtmlView @@ BrowserView @@ PageView
+Which class represents the global information about an application environment? @@ Context @@ Bundle @@ Intent @@ Resources only
+Which class is used to store key-value data passed between activity states? @@ Bundle @@ Context @@ Handler @@ Adapter
+What is the purpose of a ViewModel? @@ To hold UI data so it survives configuration changes like rotation @@ To draw views on the screen @@ To create database tables @@ To send network packets
+What is LiveData? @@ An observable data holder that is aware of the lifecycle @@ A type of database @@ A kind of layout @@ A permission type
+What is Jetpack Compose? @@ A modern toolkit for building UI with Kotlin code @@ A database library @@ A testing tool @@ A type of emulator
+What is Material Design? @@ Google's design system for building consistent user interfaces @@ A kind of database @@ A programming language @@ A build tool
+Which Android version introduced Material Design? @@ Lollipop (5.0) @@ Gingerbread (2.3) @@ KitKat (4.4) @@ Jelly Bean (4.1)
+Which Android version is named KitKat? @@ 4.4 @@ 2.3 @@ 5.0 @@ 6.0
+Which Android version is named Oreo? @@ 8.0 @@ 7.0 @@ 9 @@ 6.0
+Which Android version is named Marshmallow? @@ 6.0 @@ 5.0 @@ 7.0 @@ 8.0
+Which Android version is named Nougat? @@ 7.0 @@ 6.0 @@ 8.0 @@ 9
+Which Android version is named Pie? @@ 9 @@ 8.0 @@ 10 @@ 7.0
+In which year was the first commercial Android phone released? @@ 2008 @@ 2003 @@ 2012 @@ 2015
+What is a signed APK? @@ An APK signed with a certificate so it can be installed and updated @@ An APK with a handwritten note @@ An APK without code @@ An APK made only for emulators
+Which file stores the signing keys of an app? @@ Keystore @@ Manifest @@ Layout file @@ Strings file
+What is the Google Play Store used for? @@ Distributing Android apps to users @@ Compiling Java code @@ Designing layouts @@ Debugging only
+What does R8 do in the Android build? @@ Shrinks and optimizes code @@ Runs the emulator @@ Creates layouts @@ Sends logs
+What is the purpose of the res folder? @@ To store app resources like layouts and images @@ To store Java classes @@ To store Gradle plugins @@ To store keystores
+Which method of an activity creates the options menu? @@ onCreateOptionsMenu() @@ onMenuCreate() @@ createMenu() @@ onOptionsShow()
+Which method handles a click on an options menu item? @@ onOptionsItemSelected() @@ onMenuClick() @@ onItemTap() @@ onMenuPressed()
+Which dialog lets the user pick a date? @@ DatePickerDialog @@ CalendarBox @@ DateDialog @@ DayChooser
+Which dialog lets the user pick a time? @@ TimePickerDialog @@ ClockBox @@ TimeDialog @@ HourChooser
+Which tag in a layout file includes another layout? @@ <include> @@ <import> @@ <attach> @@ <insert>
+Which feature replaces findViewById calls with generated binding classes? @@ View Binding @@ Intent Binding @@ Manifest Binding @@ Dex Binding
+Which attribute in the manifest sets the app name shown under the icon? @@ android:label @@ android:title @@ android:appName @@ android:caption
+Which attribute in the manifest sets the app icon? @@ android:icon @@ android:image @@ android:symbol @@ android:picture
+Which attribute in the manifest sets the app theme? @@ android:theme @@ android:style @@ android:look @@ android:skin
+Which value of android:orientation arranges views from top to bottom? @@ vertical @@ horizontal @@ top @@ column
+Which method closes the current activity and returns to the previous screen? @@ finish() @@ close() @@ exit() @@ return()
+Which class can be used to keep global app state that is created before any activity? @@ Application @@ Activity @@ Service @@ Context only
+What does the system Back button do by default in an activity? @@ Closes the current activity and returns to the previous one @@ Restarts the device @@ Opens the settings @@ Deletes the app data
+Which concept is used to keep a quiz question number while the screen is rotating? @@ Saving state in onSaveInstanceState() @@ Changing the app icon @@ Editing build.gradle @@ Deleting the layout

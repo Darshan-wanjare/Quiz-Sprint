@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (light only, so the colours look the same on every phone). -->
+    <style name="Base.Theme.QuizSprint" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/quiz_primary</item>
+        <item name="android:windowBackground">@color/quiz_bg</item>
+    </style>
+
+    <style name="Theme.QuizSprint" parent="Base.Theme.QuizSprint" />
+</resources>

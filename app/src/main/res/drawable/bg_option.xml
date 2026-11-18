@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Answer option: highlighted when its RadioButton is checked -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/quiz_primary_light" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/quiz_primary" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/quiz_card" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/quiz_border" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+</selector>

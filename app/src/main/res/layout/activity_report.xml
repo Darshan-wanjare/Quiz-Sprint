@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Screen 4: Database Report (proof for the teacher) -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quiz_bg"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    tools:context=".ReportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database Report"
+            android:textColor="@color/quiz_primary_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Live data read from the SQLite database (quizdb)"
+            android:textColor="@color/quiz_muted"
+            android:textSize="14sp" />
+
+        <!-- 1. Questions per subject -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Questions in the database"
+                android:textColor="@color/quiz_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:text="SELECT subject, COUNT(*) FROM questions GROUP BY subject"
+                android:textColor="@color/quiz_muted"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvQuestionCounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="@color/quiz_primary_dark"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:text="Android:  221 questions   (more than 200)" />
+        </LinearLayout>
+
+        <!-- 2. Email attempts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Email attempts"
+                android:textColor="@color/quiz_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:text="SELECT email, subject, question_ids, score FROM attempts"
+                android:textColor="@color/quiz_muted"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvLimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/quiz_warn"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Rule: each email gets only 2 attempts per subject." />
+
+            <TextView
+                android:id="@+id/tvAttemptsReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/quiz_text"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                tools:text="student@example.com  -  Java\nAttempts used: 1 of 2  (1 left)" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnReportBack"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/quiz_primary"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="14dp" />
+
+    </LinearLayout>
+</ScrollView>
